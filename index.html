@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clinkd Support</title>
+  <meta name="description" content="Contact Clinkd support for help with your account, sessions, or app feedback.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="hero card">
+      <div class="badge">Clinkd Support</div>
+      <h1>Need help with Clinkd?</h1>
+      <p>Send a support request and we’ll get back to you by email.</p>
+
+      <form id="ticketForm" class="form">
+        <label>
+          Email
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+        </label>
+
+        <label>
+          Message
+          <textarea id="message" name="message" rows="7" placeholder="Tell us what happened..." required></textarea>
+        </label>
+
+        <button id="submitBtn" type="submit">Send ticket</button>
+        <p id="formStatus" class="status" role="status"></p>
+      </form>
+    </section>
+
+    <footer>
+      <a href="admin.html">Admin</a>
+      <span>© 2026 Ryan McKenna</span>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
