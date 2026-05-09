@@ -1,4 +1,4 @@
 window.CLINKD_CONFIG = {
-  SUPABASE_URL: "https://YOUR_PROJECT_ID.supabase.co",
-  SUPABASE_ANON_KEY: "YOUR_SUPABASE_ANON_PUBLIC_KEY"
+  SUPABASE_URL: "https://ffowuaskpnhgdsubcjhr.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_DeIgtQqXUyQ-bMP2ZZbs8Q_ffPGA8IC"
 };
