@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PlateRank Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --accent: #f5b400;
+      --ink: #111827;
+      --muted: #5b6472;
+      --paper: #fffaf0;
+      --panel: #ffffff;
+      --line: rgba(17, 24, 39, 0.12);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #f8fafc;
+        --muted: #aab3c2;
+        --paper: #071224;
+        --panel: #101b2d;
+        --line: rgba(248, 250, 252, 0.14);
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(245, 180, 0, 0.20), transparent 34rem),
+        var(--paper);
+    }
+
+    main {
+      width: min(860px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0;
+    }
+
+    header {
+      margin-bottom: 28px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 18px;
+      padding: 8px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: color-mix(in srgb, var(--panel) 78%, transparent);
+      font-weight: 800;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 8vw, 4.5rem);
+      line-height: 0.95;
+      letter-spacing: 0;
+    }
+
+    .updated {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    section {
+      margin: 18px 0;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: color-mix(in srgb, var(--panel) 86%, transparent);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.2rem;
+    }
+
+    p, ul {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    ul {
+      padding-left: 22px;
+    }
+
+    li + li {
+      margin-top: 8px;
+    }
+
+    strong {
+      color: var(--ink);
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand">🍽️ PlateRank</div>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: May 19, 2026</p>
+    </header>
+
+    <section>
+      <h2>Overview</h2>
+      <p>PlateRank is designed as a local-first food ranking app. Your favourite foods, ratings, notes, photos, scores, and optional locations are stored on your device. PlateRank does not require an account and does not operate a backend service for version 1.</p>
+    </section>
+
+    <section>
+      <h2>Information You Add</h2>
+      <ul>
+        <li><strong>Favourite foods:</strong> food names and emojis you choose or create.</li>
+        <li><strong>Ratings:</strong> entry titles, scores, dates, notes, and optional place names.</li>
+        <li><strong>Photos:</strong> photos you choose from your library or capture with the camera.</li>
+        <li><strong>Location:</strong> coordinates may be saved only when you choose to attach your current location to a rating.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Device Permissions</h2>
+      <ul>
+        <li><strong>Photos:</strong> used so you can choose food photos for ratings.</li>
+        <li><strong>Camera:</strong> used so you can take a new food photo inside the add-rating flow.</li>
+        <li><strong>Location:</strong> used only when you tap to include your current location with a rating.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Sharing</h2>
+      <p>When you use PlateRank's share feature, the app creates a graphic of your selected ranking and opens Apple's system share sheet. You control where that image is sent. PlateRank does not receive a copy of the shared image.</p>
+    </section>
+
+    <section>
+      <h2>Data Storage and Deletion</h2>
+      <p>PlateRank stores app data locally using Apple's on-device storage APIs. Deleting a rating removes that rating from the app. Deleting a favourite food also deletes its associated ratings and locally stored food photos.</p>
+    </section>
+
+    <section>
+      <h2>Third Parties</h2>
+      <p>PlateRank does not sell personal information, does not include third-party advertising SDKs, and does not track you across apps or websites.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>For privacy questions, contact the PlateRank developer through the support channel listed with the app.</p>
+    </section>
+  </main>
+</body>
+</html>
